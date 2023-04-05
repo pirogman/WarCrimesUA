@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D13AD6328EA154D004699B5 /* MapDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D13AD6228EA154D004699B5 /* MapDetailsView.swift */; };
+		5D18FED728E9802900BA12B9 /* DateIntervalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D18FED628E9802900BA12B9 /* DateIntervalView.swift */; };
+		5D18FED928E980A800BA12B9 /* EventClusterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D18FED828E980A800BA12B9 /* EventClusterView.swift */; };
+		5D18FEDB28E9819600BA12B9 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D18FEDA28E9819600BA12B9 /* Event.swift */; };
+		5D18FEDD28E981C700BA12B9 /* EventDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D18FEDC28E981C700BA12B9 /* EventDescription.swift */; };
+		5D18FEDF28E9823100BA12B9 /* DetailedEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D18FEDE28E9823100BA12B9 /* DetailedEvent.swift */; };
+		5D18FEE128E9827B00BA12B9 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D18FEE028E9827B00BA12B9 /* DBManager.swift */; };
+		5D18FEE328E982B500BA12B9 /* EventCluster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D18FEE228E982B500BA12B9 /* EventCluster.swift */; };
+		5D18FEE528E9831300BA12B9 /* Map+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D18FEE428E9831300BA12B9 /* Map+Extensions.swift */; };
+		5D18FEE928E986B300BA12B9 /* CrimesMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D18FEE828E986B300BA12B9 /* CrimesMapViewModel.swift */; };
+		5D18FEEC28E9B61700BA12B9 /* ZoomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D18FEEB28E9B61700BA12B9 /* ZoomButton.swift */; };
+		5D18FEEE28E9BB4700BA12B9 /* ZoomStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D18FEED28E9BB4700BA12B9 /* ZoomStack.swift */; };
+		5D18FEF028E9BF4400BA12B9 /* MapPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D18FEEF28E9BF4400BA12B9 /* MapPoint.swift */; };
+		5D581F0028EAC1E1002535B2 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D581EFF28EAC1E1002535B2 /* Date+Extensions.swift */; };
+		5D581F0428EAE88F002535B2 /* LanguageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D581F0328EAE88F002535B2 /* LanguageButton.swift */; };
+		5D581F0628EAE8C1002535B2 /* EventClusterDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D581F0528EAE8C1002535B2 /* EventClusterDetailsView.swift */; };
+		5D581F0828EAE8EA002535B2 /* EventClusterBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D581F0728EAE8EA002535B2 /* EventClusterBubbleView.swift */; };
+		5D581F0A28EAE927002535B2 /* LanguageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D581F0928EAE927002535B2 /* LanguageManager.swift */; };
+		5DDA115228E827B900EB50F0 /* WarCrimesUAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDA115128E827B900EB50F0 /* WarCrimesUAApp.swift */; };
+		5DDA115428E827B900EB50F0 /* CrimesMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDA115328E827B900EB50F0 /* CrimesMapView.swift */; };
+		5DDA115628E827BA00EB50F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DDA115528E827BA00EB50F0 /* Assets.xcassets */; };
+		5DDA115928E827BA00EB50F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DDA115828E827BA00EB50F0 /* Preview Assets.xcassets */; };
+		5DDA116128E82AC800EB50F0 /* event.json in Resources */ = {isa = PBXBuildFile; fileRef = 5DDA115F28E82AC800EB50F0 /* event.json */; };
+		5DDA116228E82AC800EB50F0 /* names.json in Resources */ = {isa = PBXBuildFile; fileRef = 5DDA116028E82AC800EB50F0 /* names.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D13AD6228EA154D004699B5 /* MapDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDetailsView.swift; sourceTree = "<group>"; };
+		5D18FED628E9802900BA12B9 /* DateIntervalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateIntervalView.swift; sourceTree = "<group>"; };
+		5D18FED828E980A800BA12B9 /* EventClusterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventClusterView.swift; sourceTree = "<group>"; };
+		5D18FEDA28E9819600BA12B9 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		5D18FEDC28E981C700BA12B9 /* EventDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDescription.swift; sourceTree = "<group>"; };
+		5D18FEDE28E9823100BA12B9 /* DetailedEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedEvent.swift; sourceTree = "<group>"; };
+		5D18FEE028E9827B00BA12B9 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		5D18FEE228E982B500BA12B9 /* EventCluster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCluster.swift; sourceTree = "<group>"; };
+		5D18FEE428E9831300BA12B9 /* Map+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Map+Extensions.swift"; sourceTree = "<group>"; };
+		5D18FEE828E986B300BA12B9 /* CrimesMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrimesMapViewModel.swift; sourceTree = "<group>"; };
+		5D18FEEB28E9B61700BA12B9 /* ZoomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomButton.swift; sourceTree = "<group>"; };
+		5D18FEED28E9BB4700BA12B9 /* ZoomStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomStack.swift; sourceTree = "<group>"; };
+		5D18FEEF28E9BF4400BA12B9 /* MapPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPoint.swift; sourceTree = "<group>"; };
+		5D2FF69128EB02E400BE6272 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5D581EFF28EAC1E1002535B2 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		5D581F0328EAE88F002535B2 /* LanguageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageButton.swift; sourceTree = "<group>"; };
+		5D581F0528EAE8C1002535B2 /* EventClusterDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventClusterDetailsView.swift; sourceTree = "<group>"; };
+		5D581F0728EAE8EA002535B2 /* EventClusterBubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventClusterBubbleView.swift; sourceTree = "<group>"; };
+		5D581F0928EAE927002535B2 /* LanguageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageManager.swift; sourceTree = "<group>"; };
+		5DDA114E28E827B900EB50F0 /* WarCrimesUA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarCrimesUA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DDA115128E827B900EB50F0 /* WarCrimesUAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarCrimesUAApp.swift; sourceTree = "<group>"; };
+		5DDA115328E827B900EB50F0 /* CrimesMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrimesMapView.swift; sourceTree = "<group>"; };
+		5DDA115528E827BA00EB50F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DDA115828E827BA00EB50F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5DDA115F28E82AC800EB50F0 /* event.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = event.json; sourceTree = "<group>"; };
+		5DDA116028E82AC800EB50F0 /* names.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = names.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DDA114B28E827B900EB50F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D18FEE628E9843000BA12B9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5DDA115328E827B900EB50F0 /* CrimesMapView.swift */,
+				5D13AD6228EA154D004699B5 /* MapDetailsView.swift */,
+				5D18FED628E9802900BA12B9 /* DateIntervalView.swift */,
+				5D18FEED28E9BB4700BA12B9 /* ZoomStack.swift */,
+				5D18FEEB28E9B61700BA12B9 /* ZoomButton.swift */,
+				5D581F0328EAE88F002535B2 /* LanguageButton.swift */,
+				5D18FED828E980A800BA12B9 /* EventClusterView.swift */,
+				5D581F0528EAE8C1002535B2 /* EventClusterDetailsView.swift */,
+				5D581F0728EAE8EA002535B2 /* EventClusterBubbleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5D18FEE728E9844700BA12B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5D18FEDA28E9819600BA12B9 /* Event.swift */,
+				5D18FEDC28E981C700BA12B9 /* EventDescription.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5D18FEEA28E986C000BA12B9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5D18FEE828E986B300BA12B9 /* CrimesMapViewModel.swift */,
+				5D18FEDE28E9823100BA12B9 /* DetailedEvent.swift */,
+				5D18FEE228E982B500BA12B9 /* EventCluster.swift */,
+				5D18FEEF28E9BF4400BA12B9 /* MapPoint.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5D581F0128EACCAA002535B2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5D18FEE428E9831300BA12B9 /* Map+Extensions.swift */,
+				5D581EFF28EAC1E1002535B2 /* Date+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5D581F0228EACCDA002535B2 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				5D581F0928EAE927002535B2 /* LanguageManager.swift */,
+				5D18FEE028E9827B00BA12B9 /* DBManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		5D61A21228E82DF70013487A /* JSON database */ = {
+			isa = PBXGroup;
+			children = (
+				5DDA116028E82AC800EB50F0 /* names.json */,
+				5DDA115F28E82AC800EB50F0 /* event.json */,
+			);
+			path = "JSON database";
+			sourceTree = "<group>";
+		};
+		5DDA114528E827B900EB50F0 = {
+			isa = PBXGroup;
+			children = (
+				5D2FF69128EB02E400BE6272 /* README.md */,
+				5DDA115028E827B900EB50F0 /* WarCrimesUA */,
+				5DDA114F28E827B900EB50F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DDA114F28E827B900EB50F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DDA114E28E827B900EB50F0 /* WarCrimesUA.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DDA115028E827B900EB50F0 /* WarCrimesUA */ = {
+			isa = PBXGroup;
+			children = (
+				5DDA115128E827B900EB50F0 /* WarCrimesUAApp.swift */,
+				5D18FEEA28E986C000BA12B9 /* ViewModel */,
+				5D18FEE628E9843000BA12B9 /* View */,
+				5D18FEE728E9844700BA12B9 /* Model */,
+				5D581F0128EACCAA002535B2 /* Extensions */,
+				5D581F0228EACCDA002535B2 /* Managers */,
+				5D61A21228E82DF70013487A /* JSON database */,
+				5DDA115528E827BA00EB50F0 /* Assets.xcassets */,
+				5DDA115728E827BA00EB50F0 /* Preview Content */,
+			);
+			path = WarCrimesUA;
+			sourceTree = "<group>";
+		};
+		5DDA115728E827BA00EB50F0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5DDA115828E827BA00EB50F0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DDA114D28E827B900EB50F0 /* WarCrimesUA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DDA115C28E827BA00EB50F0 /* Build configuration list for PBXNativeTarget "WarCrimesUA" */;
+			buildPhases = (
+				5DDA114A28E827B900EB50F0 /* Sources */,
+				5DDA114B28E827B900EB50F0 /* Frameworks */,
+				5DDA114C28E827B900EB50F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WarCrimesUA;
+			productName = CrimesUA;
+			productReference = 5DDA114E28E827B900EB50F0 /* WarCrimesUA.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DDA114628E827B900EB50F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					5DDA114D28E827B900EB50F0 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 5DDA114928E827B900EB50F0 /* Build configuration list for PBXProject "WarCrimesUA" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DDA114528E827B900EB50F0;
+			productRefGroup = 5DDA114F28E827B900EB50F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DDA114D28E827B900EB50F0 /* WarCrimesUA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DDA114C28E827B900EB50F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DDA116128E82AC800EB50F0 /* event.json in Resources */,
+				5DDA115928E827BA00EB50F0 /* Preview Assets.xcassets in Resources */,
+				5DDA116228E82AC800EB50F0 /* names.json in Resources */,
+				5DDA115628E827BA00EB50F0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DDA114A28E827B900EB50F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D18FED928E980A800BA12B9 /* EventClusterView.swift in Sources */,
+				5D581F0628EAE8C1002535B2 /* EventClusterDetailsView.swift in Sources */,
+				5D18FEF028E9BF4400BA12B9 /* MapPoint.swift in Sources */,
+				5D13AD6328EA154D004699B5 /* MapDetailsView.swift in Sources */,
+				5DDA115428E827B900EB50F0 /* CrimesMapView.swift in Sources */,
+				5D18FEE928E986B300BA12B9 /* CrimesMapViewModel.swift in Sources */,
+				5D581F0828EAE8EA002535B2 /* EventClusterBubbleView.swift in Sources */,
+				5D18FEE528E9831300BA12B9 /* Map+Extensions.swift in Sources */,
+				5D18FEEC28E9B61700BA12B9 /* ZoomButton.swift in Sources */,
+				5D18FEDF28E9823100BA12B9 /* DetailedEvent.swift in Sources */,
+				5D18FEE128E9827B00BA12B9 /* DBManager.swift in Sources */,
+				5DDA115228E827B900EB50F0 /* WarCrimesUAApp.swift in Sources */,
+				5D18FED728E9802900BA12B9 /* DateIntervalView.swift in Sources */,
+				5D581F0028EAC1E1002535B2 /* Date+Extensions.swift in Sources */,
+				5D18FEEE28E9BB4700BA12B9 /* ZoomStack.swift in Sources */,
+				5D581F0428EAE88F002535B2 /* LanguageButton.swift in Sources */,
+				5D18FEE328E982B500BA12B9 /* EventCluster.swift in Sources */,
+				5D18FEDB28E9819600BA12B9 /* Event.swift in Sources */,
+				5D18FEDD28E981C700BA12B9 /* EventDescription.swift in Sources */,
+				5D581F0A28EAE927002535B2 /* LanguageManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5DDA115A28E827BA00EB50F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5DDA115B28E827BA00EB50F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DDA115D28E827BA00EB50F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WarCrimesUA/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.someone.WarCrimesUA;
+				PRODUCT_NAME = WarCrimesUA;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DDA115E28E827BA00EB50F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WarCrimesUA/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.someone.WarCrimesUA;
+				PRODUCT_NAME = WarCrimesUA;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DDA114928E827B900EB50F0 /* Build configuration list for PBXProject "WarCrimesUA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DDA115A28E827BA00EB50F0 /* Debug */,
+				5DDA115B28E827BA00EB50F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DDA115C28E827BA00EB50F0 /* Build configuration list for PBXNativeTarget "WarCrimesUA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DDA115D28E827BA00EB50F0 /* Debug */,
+				5DDA115E28E827BA00EB50F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DDA114628E827B900EB50F0 /* Project object */;
+}
